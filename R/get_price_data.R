@@ -24,8 +24,6 @@
 #'}
 get_price_data <- function(year = as.numeric(lubridate::year(Sys.Date())), month = as.numeric(lubridate::month(Sys.Date())), day1 = as.numeric(lubridate::day(Sys.Date()-1)), day2 = as.numeric(lubridate::day(Sys.Date()))) {
   suppressWarnings({
-    fecha <- origen <- grp <- fuente <- scrp_id <- type <- category <- producto <- pfrec <- sp_dictionary <- short_names <- ID <- product_short_name <- NULL
-    product <- IDproduct <-  . <- NULL
 
   data("sp_dictionary")
 
