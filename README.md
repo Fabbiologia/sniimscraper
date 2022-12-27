@@ -7,7 +7,9 @@
 <!-- badges: end -->
 
 The goal of sniimscraper is to webscrape fish price data from Mexican
-markets and middlemens and being able to monitor trends.
+markets and middlemens and being able to monitor trends. You can
+download several dates and compile a large database, or contact me to
+have a cleaned one.
 
 ## Installation
 

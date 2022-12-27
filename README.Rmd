@@ -18,22 +18,23 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of sniimscraper is to webscrape fish price data from Mexican markets and middlemens and being able to monitor trends.
+The goal of sniimscraper is to webscrape fish price data from Mexican markets and middlemens and being able to monitor trends. You can download several dates and compile a large database, or contact me to have a cleaned one. 
 
 ## Installation
 
 You can install the development version of sniimscraper from [GitHub](https://github.com/) with:
 
-```{ r }
+
+```{r eval=FALSE}
 # install.packages("devtools")
 devtools::install_github("Fabbiologia/sniimscraper")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example:
 
-```{r example}
+```{r example, eval=FALSE, message=FALSE, warning=FALSE}
 library(sniimscraper)
 get_price_data()
 ```
