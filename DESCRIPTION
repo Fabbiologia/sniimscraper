@@ -23,3 +23,5 @@ Imports:
     rvest, 
     stringr,
     tidyr
+URL: https://github.com/Fabbiologia/sniimscraper
+BugReports: https://github.com/Fabbiologia/sniimscraper/issues
