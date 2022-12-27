@@ -1,0 +1,25 @@
+Package: sniimscraper
+Title: WebScraping Fish Price Data From Mexican Government Sources
+Version: 0.0.0.9000
+Authors@R: 
+    person("Fabio", "Favoretto", , "fabio@gocmarineprogram.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: WebScrape fish data from the Mexican Government's Sistema Nacional de Informacion e Integracion de Mercados (SNIIM). It also features some tailored functions to correct prices for inflation, associate catch data and forecast capabilities. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+LazyData: true
+Imports: 
+    cli,
+    glue,
+    lifecycle,
+    magrittr,
+    rlang,
+    withr, 
+    dplyr, 
+    curl, 
+    janitor, 
+    rvest, 
+    stringr,
+    tidyr
